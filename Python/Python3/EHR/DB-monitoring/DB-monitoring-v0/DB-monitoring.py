@@ -52,10 +52,6 @@ if len(fields1) != len(fields2):
     print('Target:', len(fields2), '|', db2_name, '(', db2_username + db2_conn_str, ')')
     print()
 
-    # min_count = min(len(fields1), len(fields2))
-    # max_count = max(len(fields1), len(fields2))
-    # print(min_count, 'max_count', max_count)
-
     if len(fields1) > len(fields2):
         for i in range(len(fields2)):
             if fields2[i] not in fields1:
